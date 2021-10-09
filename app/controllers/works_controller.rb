@@ -8,6 +8,19 @@ class WorksController < ApplicationController
     @work = Work.new
   end
 
+  def edit
+    @work = Work.find(params[:id])
+  end
+
+  def update
+    @work = Work.find(params[:id])
+    if @work.update(work_params)
+      redirect_to action: :index
+    else
+      render action :edit
+    end
+  end
+
   def create
     @record = Work.new(work_params)
     if @record.save
