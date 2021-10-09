@@ -1,6 +1,14 @@
 h1{
+  margin-top: 50px;
   font-size: 1.7rem;
   margin: 25px;
+  text-align: center;
+  width: 30%;
+  padding: 0.5rem;
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+  color: #fff;
+  background-image: linear-gradient(to right, #209cff 0%, #71faff 100%);
 }
 
 h2{
@@ -11,6 +19,23 @@ h2{
 h3{
   font-size: 1.3rem;
   margin: 15px;
+}
+
+.back{
+  background-color: #fcf0d0;
+}
+
+.space{
+  height: 25px;
+}
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+}
+
+img{
+  width: 300px;
 }
 
 form input,
@@ -36,4 +61,12 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #bbbbbb;
   width: 300px
+}
+
+.grid{
+  margin-top: 40px;
+  gap: 25px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

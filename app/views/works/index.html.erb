@@ -1,3 +1,23 @@
-<% @works.each do |work| %>
-  <%= work.title %>
-<% end %>
+<div class="back">
+
+<div class="space"></div>
+
+<div class="content">
+  <h1>works</h1>
+
+  <div class="grid">
+    <% @works.each do |work| %>
+      <div>
+        <div class="work_img">
+          <%= image_tag work.image %>
+        </div>
+        <div class="info">
+          <%= work.title %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+</div>
+
