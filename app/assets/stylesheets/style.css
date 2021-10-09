@@ -59,6 +59,15 @@ img{
 }
 
 .ats_content{
+  width: 100%;
+  height: 50vh;
+  display: table;
+  text-align: center;
+}
+
+.ats_content_show{
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
 }
 
