@@ -1,0 +1,39 @@
+h1{
+  font-size: 1.7rem;
+  margin: 25px;
+}
+
+h2{
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+h3{
+  font-size: 1.3rem;
+  margin: 15px;
+}
+
+form input,
+form textarea,
+form select{
+  width: 80%;
+  margin: 5px auto 15px;
+  padding: 15px;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  display: block;
+}
+
+form input[type="submit"] {
+  background-color: #212121;
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  font-size: 18px;
+  width: 300px
+}
+
+form input[type="submit"]:hover {
+  background-color: #bbbbbb;
+  width: 300px
+}

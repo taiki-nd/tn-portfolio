@@ -1,4 +1,10 @@
 class WorksController < ApplicationController
+
+
+  def new
+    @work = Work.new
+  end
+
   private
 
   def message_params
