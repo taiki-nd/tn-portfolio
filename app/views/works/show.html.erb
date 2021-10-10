@@ -1,1 +1,9 @@
 <h2><%= @work.title %></h2>
+
+<div class="space"></div>
+
+<div class="content_for_show">
+  <%= image_tag(@work.image, class:"work_img_show") %>
+  <div class="space"></div>
+  <%= safe_join(@work.text.split("\n"),tag(:br)) %>
+</div>
