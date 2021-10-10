@@ -1,5 +1,3 @@
-<div class="back">
-
 <div class="content">
 
   <div class="top">
@@ -25,28 +23,16 @@
     <% @works.each do |work| %>
       <div>
         <div class="work_img">
-          <%= image_tag work.image %>
+          <%= link_to image_tag(work.image, class:"work_img"), work_path(work.id) %>
         </div>
         <div class="info">
           <%= work.title %>
         </div>
-      <!-- オーバーレイ -->
-        <div id="overlay" class="overlay"></div>
-      <!-- モーダルウィンドウ -->
-        <div class="modal-window">
-          <!-- 閉じるボタン -->
-          <button class="js-close button-close">Close</button>
-        </div>
-      <!-- モーダルを開くボタン -->
-        <button class="js-open button-open">open</button>
       </div>
     <% end %>
   </div>
 
   <h2>skills</h2>
-
-
-</div>
 
 </div>
 
