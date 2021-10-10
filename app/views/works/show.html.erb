@@ -1,0 +1,18 @@
+<div class="space"></div>
+<div class="content">
+<h2><%= @work.title %></h2>
+</div>
+
+<div class="space"></div>
+
+<div class="content_for_show">
+  <%= image_tag(@work.image, class:"work_img_show") %>
+  <div class="space"></div>
+  <%= safe_join(@work.text.split("\n"),tag(:br)) %>
+
+  <div class="space"></div>
+
+  <div class="URL">
+    <%= link_to "#{@work.title}はこちら", @work.url %>
+  </div>
+</div>

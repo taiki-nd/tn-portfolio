@@ -1,3 +1,38 @@
-<% @works.each do |work| %>
-  <%= work.title %>
-<% end %>
+<div class="content">
+
+  <div class="top">
+    <div class="title">
+      <h1>Taiki's</h1>
+      <h1>Portfolio</h1>
+    </div>
+  </div>
+
+  <h2>about this site</h2>
+  <div class="ats_content">
+    <div class="ats_content_show">
+      <p>こんにちは！</p>
+      <div class="space"></div>
+      <p>このサイトは僕、野田大貴が身につけたこと、製作物などをまとめたサイトです!</p>
+      <div class="space"></div>
+      <p>ゆーっくり眺めていってくださいね！</p>
+    </div>
+  </div>
+
+  <h2>works</h2>
+  <div class="grid">
+    <% @works.each do |work| %>
+      <div>
+        <div class="work_img">
+          <%= link_to image_tag(work.image, class:"work_img"), work_path(work.id) %>
+        </div>
+        <div class="info">
+          <%= work.title %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <h2>skills</h2>
+
+</div>
+
