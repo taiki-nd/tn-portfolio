@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_11_131624) do
+ActiveRecord::Schema.define(version: 2021_10_11_133539) do
 
   create_table "active_storage_attachments", charset: "utf8", force: :cascade do |t|
     t.string "name", null: false
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 2021_10_11_131624) do
   create_table "languages", charset: "utf8", force: :cascade do |t|
     t.string "langage"
     t.integer "point"
+    t.string "kind"
   end
 
   create_table "users", charset: "utf8", force: :cascade do |t|

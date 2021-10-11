@@ -36,6 +36,7 @@
   <div class="langs">
     <div class="front">
       <h3>Front-end</h3>
+      <%= bar_chart Language.group(:langage).sum(:point) %>
       <p>HTML</p>
       <p>CSS</p>
       <p>java script</p>
