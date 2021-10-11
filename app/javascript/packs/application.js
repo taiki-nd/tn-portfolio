@@ -11,6 +11,8 @@ import "channels"
 require('jquery')
 require('packs/fade.js')
 
+import "chartkick/chart.js"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

@@ -36,21 +36,15 @@
   <div class="langs">
     <div class="front">
       <h3>Front-end</h3>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>java script</p>
-      <p>jQuery</p>
+      <%= bar_chart Language.where(kind: "Front").group(:langage).sum(:point), max: 100 %>
     </div>
     <div class="back">
     <h3>Back-end</h3>
-      <p>ruby</p>
-      <p>ruby on rails</p>
+      <%= bar_chart Language.where(kind: "Back").group(:langage).sum(:point), max: 100 %>
     </div>
     <div class="other">
       <h3>DevOps</h3>
-      <p>MySQL</p>
-      <p>AWS</p>
-      <p>Git/GitHub</p>
+      <%= bar_chart Language.where(kind: "DevOps").group(:langage).sum(:point), max: 100 %>
     </div>
   </div>
 
