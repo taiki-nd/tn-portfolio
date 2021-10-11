@@ -153,3 +153,16 @@ form input[type="submit"]:hover {
 .infos_info{
   margin-left: 5px;
 }
+
+
+.fadein_left {
+  opacity : 0;
+  transform: translateX(-50px);
+  transition: all 1s;
+}
+
+.fadein_right {
+  opacity : 0;
+  transform: translateX(50px);
+  transition: all 1s;
+}
