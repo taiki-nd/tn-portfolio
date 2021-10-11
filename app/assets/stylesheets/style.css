@@ -166,3 +166,19 @@ form input[type="submit"]:hover {
   transform: translateX(50px);
   transition: all 1s;
 }
+
+.title_word {
+  display: block;
+  font-size: 4rem;
+  display: inline;
+  background: linear-gradient( to right,  #008cff 25%, #58d8ff 75% );
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity:0;
+}
+
+.title_word span{
+  opacity: 0;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
