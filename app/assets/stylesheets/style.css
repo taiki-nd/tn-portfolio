@@ -113,6 +113,13 @@ form input[type="submit"]:hover {
   width: 100%;
 }
 
+
+.langs{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .w_content{
   display: flex;
 }
