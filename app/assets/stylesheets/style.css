@@ -20,7 +20,7 @@ h2:after {
   height: 6px;
   content: '';
   border-radius: 3px;
-  background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(to left, #008cff 0%, #58d8ff 100%);
 }
 
 h3{
@@ -61,6 +61,7 @@ img{
 .ats_content{
   width: 100%;
   height: 50vh;
+  font-size: 1.2rem;
   display: table;
   text-align: center;
 }
