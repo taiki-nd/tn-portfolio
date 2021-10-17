@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+.qiita_img{
+  height: 50px;
+  width: 50px;
+}
+
+.profile_img{
+  display: block;
+  width: 300px;
+  height: fit-content;
+  margin: 0 auto;
+}
+
 h1{
   font-size: 4rem;
   display: inline;
@@ -28,6 +40,10 @@ h2:after {
 h3{
   font-size: 1.3rem;
   margin: 15px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .back{
@@ -184,6 +200,23 @@ form input[type="submit"]:hover {
   opacity: 0;
   -webkit-transition: .6s ease-in-out;
   transition: .6s ease-in-out;
+}
+
+.outputs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fab{
+  font-size: 50px;
+}
+
+.fa-twitter{
+  color: #3ed2ff;
+}
+
+.fa-github-square{
+  color: #000000;
 }
 
 @media (max-width: 570px){

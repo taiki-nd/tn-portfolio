@@ -16,6 +16,7 @@
       <p>ゆーっくり眺めていってくださいね！</p>
     </div>
   </div>
+  <div class="space"></div><div class="space"></div>
 
   <h2>works</h2>
   <div class="grid">
@@ -30,6 +31,7 @@
       </div>
     <% end %>
   </div>
+  <div class="space"></div><div class="space"></div>
 
   <h2>skills</h2>
   <div class="space"></div>
@@ -47,10 +49,13 @@
       <%= bar_chart Language.where(kind: "DevOps").group(:langage).sum(:point), max: 100 %>
     </div>
   </div>
+  <div class="space"></div><div class="space"></div>
 
   <h2>profile</h2>
   <div class="space"></div>
-  <p class="name">名前：　野田大貴</p>
+  <p class="name fadein_right">名前：　野田大貴</p>
+  <div class="space"></div>
+  <%= image_tag("image.png", class:"profile_img fadein_left") %>
   <div class="space"></div>
     <div class="right_pro">
       <p class="info_right fadein_left">1994年/横浜生まれ</p>
@@ -69,7 +74,7 @@
         <div class="space"></div>
         <div class="w_content fadein_right">
           <div class="v_line_fix"></div>
-          <p class="infos_info">吹奏楽部でクラリネットを担当。たまにサックスもやってました。</p>
+          <p class="infos_info">吹奏楽部でクラリネットを担当。たまにサックスもやってました。長期休みの時の</p>
         </div>
       <p class="info_right fadein_left">2010年/高校時代</p>
       <div class="space"></div>
@@ -101,6 +106,25 @@
           <div class="v_line_fix"></div>
           <p class="infos_info">自動運転、配車アプリを目に前にして一生タクシードライバーはきついだろうなと思い。閃いたわけです。「そうか、配車アプリとか、webサービス作る側に回ろう！」と...笑</p>
         </div>
+    </div>
+    <div class="space"></div><div class="space"></div>
+
+    <h2>output</h2>
+    <div class="space"></div>
+    <div class="outputs">
+      <div class="output">
+        <a href="https://twitter.com/Kii_Program">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="output">
+        <%= link_to image_tag("favicon.png", class:"qiita_img"), "https://qiita.com/taiki-nd" %>
+      </div>
+      <div class="output">
+        <a href="https://github.com/taiki-nd">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </div>
     </div>
     <div class="space"></div><div class="space"></div><div class="space"></div><div class="space"></div>
 
