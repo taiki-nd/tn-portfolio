@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 h1{
   font-size: 4rem;
   display: inline;
@@ -182,4 +184,29 @@ form input[type="submit"]:hover {
   opacity: 0;
   -webkit-transition: .6s ease-in-out;
   transition: .6s ease-in-out;
+}
+
+@media (max-width: 570px){
+
+  .langs{
+    width: 100%;
+    display: block;
+  }
+
+  .right_pro{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .info_right{
+    text-align: center;
+  }
+
+  .v_line_fix {
+    margin-left: 10px;
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(#008cff, #58d8ff);
+  }
+
 }
