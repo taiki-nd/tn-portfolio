@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+html{
+  overflow: auto;
+}
+
+body{
+  overflow: hidden;
+}
+
 .qiita_img{
   height: 50px;
   width: 50px;
