@@ -267,6 +267,59 @@ form input[type="submit"]:hover {
   max-width: 500px;
 }
 
+.mark table{
+  border-collapse:separate;
+  border-spacing: 0;
+  width: 100%;
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mark table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+.mark table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #58d8ff;
+}
+
+.mark table th{
+  text-align: center;
+  background-image: -webkit-linear-gradient( to right,  #008cff 25%, #58d8ff 75% );
+  background-image: linear-gradient( to right,  #008cff 25%, #58d8ff 75% );
+  border-left: 1px solid #58d8ff;
+  border-top: 1px solid #58d8ff;
+  border-bottom: 1px solid #58d8ff;
+  box-shadow: 0px 1px 1px #ffffff4d inset;
+  width: 100px;
+  padding: 10px;
+}
+
+.mark table td{
+  text-align: center;
+  border-left: 1px solid #58d8ff;
+  border-bottom: 1px solid #58d8ff;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 100px;
+  padding: 10px;
+}
+
+.mark table td:last-child{
+  border-right: 1px solid #58d8ff;
+}
+
+.mark table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.mark table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
 @media (max-width: 570px){
 
   .langs{
