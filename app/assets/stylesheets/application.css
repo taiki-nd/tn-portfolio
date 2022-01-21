@@ -23,3 +23,39 @@
 body{
   overflow: hidden;
 }
+
+#header{
+  width: 100%;
+  height: 30px;
+  color: #212121;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  background: -webkit-linear-gradient(45deg, #fcf0d0, #fcf0d0, #008cff, #fcf0d0, #58d8ff, #fcf0d0);
+}
+
+.heading{
+  width: fit-content;
+  width: -moz-fit-content;
+  height: 30px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.title_logo{
+  display: block;
+  margin-right: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+#heading_id a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
