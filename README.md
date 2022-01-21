@@ -15,23 +15,28 @@ https://tn-portfolio-0517.herokuapp.com/
 ## Works
 
 1. FX-Traders（自身で0から企画して作ったアプリケーション）
+
 URL：https://fxtraders.jp
 アプリ説明文URL(README)：https://github.com/taiki-nd/fx-traders
 
-1. Trade-Note（FX-Tradersの大幅リニューアルバージョン）
+* Trade-Note（FX-Tradersの大幅リニューアルバージョン）
+
 URL：https://trade-note.jp
 アプリ説明文URL(README)：https://github.com/taiki-nd/trade-note
 
-1. ToDoアプリ（railsと独学したreactを組み合わせて作ったアプリケーション）
+* ToDoアプリ（railsと独学したreactを組み合わせて作ったアプリケーション）
+
 URL：https://todo-app-rails-react.herokuapp.com/todoes
 アプリ説明文URL(qiita)：https://qiita.com/taiki-nd/items/aa9d0a03d1950876efab
 備考：Qiitaにてアウトプットしています。
 
-1. 写真家のポートフォリオ（カメラ好きの友人と打ち合わせをしながら作成）
+* 写真家のポートフォリオ（カメラ好きの友人と打ち合わせをしながら作成）
+
 URL： https://shio-web.jp
 アプリ説明文URL(README)： https://github.com/taiki-nd/hs-portfolio
 
-1. Photo-Search(reactで作成したSPA)
+* Photo-Search(reactで作成したSPA)
+
 URL：https://photo-search-0517.herokuapp.com/
 アプリ説明文URL(README)： https://github.com/taiki-nd/photo-search
 
