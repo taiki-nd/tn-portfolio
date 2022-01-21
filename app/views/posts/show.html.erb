@@ -1,11 +1,17 @@
-
+<div class="content">
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Content:</strong>
-  <!-- ここを編集 -->
-  <%= markdown(@post.content) %>
-</p>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
 
+<div class="mark">
+  <%= markdown(@post.content) %>
+</div>
+
+
+<% if user_signed_in? %>
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
+<% end %>
+</div>
