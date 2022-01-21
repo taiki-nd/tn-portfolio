@@ -6,10 +6,10 @@
     </div>
   </div>
 
-  <h2>works/learning</h2>
+  <h2 class="fadein_left">works/learning</h2>
   <div class="grid">
     <% @posts.each do |post| %>
-      <div class="card">
+      <div class="card fadein_right">
         <div class="total_info">
           <div class="info">
             <%= post.title %>
@@ -24,25 +24,25 @@
   </div>
   <div class="space"></div><div class="space"></div>
 
-  <h2>skills</h2>
+  <h2 class="fadein_left">skills</h2>
   <div class="space"></div>
   <div class="langs">
-    <div class="front">
+    <div class="front fadein_right">
       <h3>Front-end</h3>
       <%= bar_chart Language.where(kind: "Front").group(:langage).sum(:point), max: 100 %>
     </div>
-    <div class="back">
+    <div class="back fadein_right">
     <h3>Back-end</h3>
       <%= bar_chart Language.where(kind: "Back").group(:langage).sum(:point), max: 100 %>
     </div>
-    <div class="other">
+    <div class="other fadein_right">
       <h3>DevOps</h3>
       <%= bar_chart Language.where(kind: "DevOps").group(:langage).sum(:point), max: 100 %>
     </div>
   </div>
   <div class="space"></div><div class="space"></div>
 
-  <h2>profile</h2>
+  <h2 class="fadein_left">profile</h2>
   <div class="space"></div>
   <p class="name fadein_right">名前：　野田大貴</p>
   <div class="space"></div>
