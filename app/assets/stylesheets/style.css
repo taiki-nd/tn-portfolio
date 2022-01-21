@@ -397,4 +397,8 @@ li:after {
     margin-left: 0;
   }
 
+  .mark img{
+    max-width: 100%;
+  }
+
 }
