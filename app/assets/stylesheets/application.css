@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+ @import 'simplemde/dist/simplemde.min'; 
+
+ html{
+  overflow: auto;
+}
+
+body{
+  overflow: hidden;
+}
