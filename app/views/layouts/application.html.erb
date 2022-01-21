@@ -38,5 +38,27 @@
   <div class="back">
     <%= yield %>
   </div>
+
+  <footer>
+  <h2>output</h2>
+    <div class="space"></div>
+    <div class="outputs">
+      <div class="output">
+        <a href="https://twitter.com/Kii_Program">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="output">
+        <%= link_to image_tag("favicon.png", class:"qiita_img"), "https://qiita.com/taiki-nd" %>
+      </div>
+      <div class="output">
+        <a href="https://github.com/taiki-nd">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </div>
+    </div>
+    <div class="space"></div><div class="space"></div>
+    </footer>
+
   </body>
 </html>
