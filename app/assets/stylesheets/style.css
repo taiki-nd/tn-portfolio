@@ -133,13 +133,24 @@ form input[type="submit"]:hover {
   width: 300px;
   height: 200px;
   display: table;
+  color: #fcf0d0;
+}
+
+.card :hover{
+  position:relative;
+  border: 4px solid #58d8ff;
+  border-image: linear-gradient(to left, #58d8ff 0%, #008cff 100%);
+  border-image-slice: 1;
+  width: 300px;
+  height: 200px;
+  display: table;
 }
 
 .card .Link{
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -4px;
+  left: -4px;
   width: 100%;
   height: 100%;
 }
@@ -152,7 +163,6 @@ form input[type="submit"]:hover {
 
 .info{
   font-size: 1.5rem;
-  color: #fcf0d0;
   width: fit-content;
   display: block;
   margin: 0 auto;
@@ -163,7 +173,6 @@ form input[type="submit"]:hover {
 }
 
 .sub_info{
-  color: #fcf0d0;
   text-align: center;
 }
 
