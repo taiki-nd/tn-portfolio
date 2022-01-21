@@ -12,6 +12,9 @@
   </head>
 
   <body>
+  <% if content_for?(:body_attributes) %>
+    <%= yield(:body_attributes) %>
+  <% end %>
   <div class="back">
     <%= yield %>
   </div>
