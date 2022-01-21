@@ -1,3 +1,5 @@
+document.addEventListener("turbolinks:load", function () {
+
 $(function(){
   /*=================================================
   スクロール時の画像フェード表示
@@ -67,4 +69,5 @@ $(function(){
     txtNum++
   }, speed);
 
+});
 });
