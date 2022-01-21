@@ -1,24 +1,45 @@
-# README
+# アプリ名
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+tn-portfolio
 
-Things you may want to cover:
+# URL
 
-* Ruby version
+https://tn-portfolio-0517.herokuapp.com/
 
-* System dependencies
+# アプリ概要
 
-* Configuration
+自身のポートフォリオサイト
 
-* Database creation
+# Works/Learning
 
-* Database initialization
+## Works
 
-* How to run the test suite
+1. FX-Traders（自身で0から企画して作ったアプリケーション）
+URL：https://fxtraders.jp
+アプリ説明文URL(README)：https://github.com/taiki-nd/fx-traders
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Trade-Note（FX-Tradersの大幅リニューアルバージョン）
+URL：https://trade-note.jp
+アプリ説明文URL(README)：https://github.com/taiki-nd/trade-note
 
-* Deployment instructions
+1. ToDoアプリ（railsと独学したreactを組み合わせて作ったアプリケーション）
+URL：https://todo-app-rails-react.herokuapp.com/todoes
+アプリ説明文URL(qiita)：https://qiita.com/taiki-nd/items/aa9d0a03d1950876efab
+備考：Qiitaにてアウトプットしています。
 
-* ...
+1. 写真家のポートフォリオ（カメラ好きの友人と打ち合わせをしながら作成）
+URL： https://shio-web.jp
+アプリ説明文URL(README)： https://github.com/taiki-nd/hs-portfolio
+
+1. Photo-Search(reactで作成したSPA)
+URL：https://photo-search-0517.herokuapp.com/
+アプリ説明文URL(README)： https://github.com/taiki-nd/photo-search
+
+
+## Learning
+
+* Learning Golang
+URL: https://tn-portfolio-0517.herokuapp.com/posts/12
+
+* Learning React
+URL: https://tn-portfolio-0517.herokuapp.com/posts/13
