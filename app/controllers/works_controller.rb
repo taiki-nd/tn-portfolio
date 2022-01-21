@@ -4,6 +4,8 @@ class WorksController < ApplicationController
 
   def index
     @works = Work.all.order("created_at DESC")
+    @posts = Post.all
+    @attachment = Attachment.all
   end
 
   def new
