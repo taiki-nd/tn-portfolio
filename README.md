@@ -12,6 +12,8 @@ https://tn-portfolio-0517.herokuapp.com/
 
 # Works/Learning
 
+サイト内で紹介している製作物の一覧になります。
+
 ## Works
 
 * FX-Traders（自身で0から企画して作ったアプリケーション）
