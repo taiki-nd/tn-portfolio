@@ -131,9 +131,44 @@ form input[type="submit"]:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.content_for_show{
-  width: 60%;
+.card{
+  position:relative;
+  background-image: linear-gradient(to left, #008cff 0%, #58d8ff 100%);
+  width: 300px;
+  height: 200px;
+  display: table;
+}
+
+.card .Link{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.total_info{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.info{
+  font-size: 1.5rem;
+  color: #fcf0d0;
+  width: fit-content;
+  display: block;
   margin: 0 auto;
+  text-align: center;
+  padding: 3px 5px;
+  border: 2px solid #fcf0d0;
+  border-radius: 10px;
+}
+
+.sub_info{
+  color: #fcf0d0;
+  text-align: center;
 }
 
 .work_img_show{

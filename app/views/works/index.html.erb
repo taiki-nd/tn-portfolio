@@ -9,15 +9,16 @@
   <h2>works/learning</h2>
   <div class="grid">
     <% @posts.each do |post| %>
-      <div>
-        <div class="work_img">
+      <div class="card">
+        <div class="total_info">
+          <div class="info">
+            <%= post.title %>
+          </div>
+          <div class="sub_info">
+            [ <%= post.sub_title %> ]
+          </div>
         </div>
-        <div class="info">
-          <%= post.title %>
-        </div>
-        <div class="info">
-          <%= post.sub_title %>
-        </div>
+        <a class ="Link" href="/posts/<%=post.id%>"></a>
       </div>
     <% end %>
   </div>
